@@ -1,0 +1,802 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    height: auto;
+    margin: auto;
+    position: relative;
+
+
+    .banner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+
+        .banner__heading {
+            width: 602px;
+            height: auto;
+            margin-right: 120px;
+            margin-left: 50px;
+
+            .banner__heading__item {
+                font-family: 'Exo 2';
+                font-weight: 600;
+                font-size: 52px;
+                line-height: 125%;
+                margin-bottom: 40px;
+            }
+
+            .banner__heading__text {
+                font-family: 'PT Sans';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #6B6B6C;
+                margin-bottom: 40px;
+            }
+
+            .banner__heading__link {
+                font-family: 'PT Sans';
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 150%;
+                text-decoration: none;
+                color: #363738;
+                margin-bottom: 10px;
+            }
+
+            .banner__heading__link-text-decoratin {
+                height: 3px;
+                width: 105px;
+                background-color: #FFCE50;
+            }
+        }
+
+        .banner__img {
+            width: 762px;
+            height: 787px;
+            background: #0B7572;
+            position: relative;
+
+            .banner-img {
+                position: absolute;
+                top: 109px;
+                right: 143px;
+                background-size: cover;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .menu {
+        width: 1240px;
+        height: 341px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        display: grid;
+        grid-template-columns: 333px 333px 333px;
+        align-content: center;
+        position: absolute;
+        gap: 0 40px;
+        top: 700px;
+        right: 145px;
+        margin-bottom: 100px;
+
+        .menu__card {
+            width: 333px;
+            height: 261px;
+            margin-left: 80px;
+        }
+
+        .div_b-img {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            background: #E9E9EC;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+
+        .card__heading {
+            font-family: 'Exo 2';
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 135%;
+            margin-bottom: 16px;
+            width: 228px;
+        }
+
+        .card__item {
+            font-family: 'PT Sans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;
+            width: 225px;
+        }
+
+        .menu__card2 {
+            width: 333px;
+            height: 261px;
+            border-right: 1px solid #D7D7DD;
+            border-left: 1px solid #D7D7DD;
+        }
+
+        .divv {
+            margin: auto;
+            width: 228px;
+        }
+    }
+
+    .main {
+        max-width: 1108px;
+        height: 722px;
+        margin-left: 100px;
+        margin-top: 390px;
+        display: flex;
+        margin-bottom: 100px;
+
+        .main__items {
+            width: auto;
+            height: auto;
+
+            .main__heading {
+                font-family: 'Exo 2';
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 125%;
+                margin-bottom: 32px;
+            }
+
+            .main__text {
+                font-family: 'PT Sans';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                width: 667px;
+                color: #6B6B6C;
+                margin-bottom: 40px;
+            }
+
+            .main__card {
+                width: 687px;
+                height: 176px;
+                background: #FFFFFF;
+                box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+                border-radius: 10px;
+                display: flex;
+                margin-bottom: 16px;
+
+            }
+
+            input {
+                width: 24px;
+                height: 24px;
+                background: #FFFFFF;
+                border: 1px solid #CBCBCD;
+                margin-top: 48px;
+                margin-left: 40px;
+            }
+
+            .main__card__items__heading {
+                font-family: 'Exo 2';
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                margin-top: 40px;
+                margin-left: 32px;
+            }
+
+            .main__card__items__text {
+                font-family: 'PT Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                margin-top: 20px;
+                margin-left: 32px;
+                color: #6B6B6C;
+                width: 466px;
+            }
+
+        }
+
+        .main__min-heading {
+            margin-top: 162px;
+            margin-left: 140px;
+        }
+
+        .main__itemm {
+            font-family: 'Exo 2';
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;
+            color: #363738;
+        }
+
+        .main__min-heading__number {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+
+            .number {
+                font-family: 'Exo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 150%;
+            }
+
+            .item {
+                font-size: 13px;
+                font-family: 'Exo 2';
+                color: #6B6B6C;
+                margin-top: 23px;
+            }
+        }
+
+        .text-decoration {
+            width: 281px;
+            height: 3px;
+            background-color: #FFCE50;
+        }
+    }
+
+    .banner2 {
+        max-width: 1431px;
+        height: 453px;
+        display: flex;
+        margin-bottom: 72.5px;
+
+        .banner2__heading {
+            width: 663px;
+            height: 453px;
+            background-color: #0B7572;
+            font-family: 'Exo 2';
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bigimg {
+            background-size: cover;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .icon-cards {
+        max-width: 1341px;
+        height: auto;
+        display: grid;
+        grid-template-columns: 420px 420px;
+        justify-content: center;
+        gap: 64px 176px;
+        margin-bottom: 122px;
+
+        .icon-cards__card {
+            width: auto;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            gap: 0 40px;
+
+            .elipse {
+                width: 80px;
+                height: 80px;
+                background-color: #E9E9EC;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .icon-cards__heading__item {
+                font-family: 'Exo 2';
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 135%;
+                margin-bottom: 13px;
+            }
+
+            .icon-cards__heading__text {
+                font-family: 'PT Sans';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                width: 291px;
+                color: #6B6B6C;
+            }
+        }
+    }
+
+    .p1 {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        margin-bottom: 32px;
+        margin-left: 100px;
+    }
+
+    .p2 {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+        width: 667px;
+        margin-bottom: 56px;
+        margin-left: 100px;
+    }
+
+    .cardss2 {
+        display: flex;
+        gap: 0 30px;
+        margin: auto;
+        margin-left: 100px;
+        margin-bottom: 212px;
+    }
+
+    .cardss2__card {
+        min-width: 393px;
+        height: 439px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+        border-radius: 10px;
+
+        .card2__heading {
+            font-family: 'Exo 2';
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 135%;
+            margin-top: 24px;
+            margin-left: 32px;
+        }
+
+        .card2__text {
+            font-family: 'PT Sans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            margin-top: 16px;
+            margin-left: 32px;
+            width: 291px;
+        }
+
+        .card2__number {
+            font-family: 'Exo 2';
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 135%;
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+
+        .decoratin-item {
+            width: 86px;
+            height: 3px;
+            background-color: #FFCE50;
+            margin-top: 10px;
+            margin-left: 32px;
+        }
+    }
+
+    .table-div {
+        width: 1420px;
+        height: 917px;
+        background-color: #0B7572;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 477px 652px;
+        gap: 20px;
+        margin-bottom: 120px;
+
+        .table-div__heading {
+            width: 477px;
+            height: 109px;
+            margin-top: 100px;
+            margin-left: 101px;
+            display: inline-block;
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 125%;
+            color: white;
+        }
+
+        .table {
+            width: 722px;
+            height: 797px;
+            background-color: #ffffff;
+            margin-left: 90px;
+            margin-top: 85px;
+
+            .table__heading {
+                display: flex;
+                justify-content: space-between;
+
+                .table-logo {
+                    margin-top: 28px;
+                    margin-left: 41px;
+                }
+
+                .table__text {
+                    font-family: 'PT Sans';
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+                    ;
+                    width: 274px;
+                    margin-top: 28px;
+                    margin-right: 40px;
+                }
+            }
+
+            .table__hr {
+                margin-top: 39px;
+                width: 598px;
+                height: 1px;
+                border: 1px solid #c7c7c7;
+                margin-left: 32px;
+                margin-bottom: 32px;
+            }
+
+            table {
+                border-collapse: collapse;
+                margin-top: 32px;
+
+                th {
+                    padding: 12px 38px;
+                    font-family: 'Exo 2';
+                    color: #ffffff;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    background-color: #0B7572;
+                }
+
+                tr {
+                    background-color: #f9f9fb;
+                }
+
+                .td {
+                    font-family: 'PT Sans';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 135%;
+                    color: #6B6B6C;
+                    padding: 11px;
+                    border-right: 1px solid rgba(0, 0, 0, 0.2);
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+                }
+
+                .td-p1 {
+                    font-family: 'Exo 2';
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 135%;
+                    color: black;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+                .star {
+                    width: 81px;
+                    height: 35px;
+                    background-size: cover;
+                    object-fit: cover;
+                    margin-top: 12px;
+                }
+
+                .p-number {
+                    font-family: 'PT Sans';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 135%;
+                    color: black;
+                    display: inline-block;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    .heading {
+        font-family: 'Exo 2';
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        margin-bottom: 48px;
+        margin-left: 100px;
+    }
+
+    .cards4 {
+        margin-left: 149px;
+        margin-bottom: 120px;
+
+        .cards4__card {
+            width: 1183px;
+            height: 245px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 24px;
+
+            .card4__img {
+                margin-top: 32px;
+                margin-left: 96px;
+            }
+
+            .cards4__card__heading {
+                width: 568px;
+                height: auto;
+                margin-left: 56px;
+
+                .cardss4__item {
+                    font-family: 'Exo 2';
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 125%;
+                    margin-bottom: 24px;
+                }
+
+                .div-hr {
+                    width: 86px;
+                    height: 3px;
+                    background-color: #FFCE50;
+                    margin-bottom: 24px;
+                }
+
+                .cardss4__text {
+                    font-family: 'PT Sans';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+                }
+            }
+        }
+    }
+
+    .p-heading {
+        font-family: 'Exo 2';
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        margin-left: 100px;
+        margin-bottom: 90px;
+    }
+
+    .klients {
+        display: grid;
+        grid-template-columns: 303px 303px 303px 303px;
+        gap: 50px 30px;
+        margin-bottom: 130px;
+        margin-bottom: 130px;
+    }
+
+    .klient {
+        width: 303px;
+        height: 193px;
+        border-right: 1px solid #D7D7DD;
+
+        .klient__img {
+            margin-left: 110px;
+        }
+
+        .klient__item {
+            font-family: 'Exo 2';
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 135%;
+            margin-top: 32px;
+            text-align: center;
+        }
+
+        .klient__text {
+            font-family: 'PT Sans';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            margin-top: 14px;
+            text-align: center;
+            color: #6B6B6C;
+        }
+    }
+
+    .cardss5 {
+        background-color: #FFFFFF;
+        display: grid;
+        grid-template-columns: 605px 605px;
+        gap: 24px;
+        margin-left: 101px;
+
+        .cardss5__card {
+            width: 605px;
+            height: 210px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+
+            .user {
+                width: 138px;
+                height: 138px;
+                background-size: cover;
+                object-fit: cover;
+                margin-left: 32px;
+            }
+
+            .cardss5__text {
+                margin-left: 40px;
+            }
+
+            .cardss5__text__heading {
+                font-family: 'Exo 2';
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 12px;
+            }
+
+            .cardss5__text__item {
+                font-family: 'PT Sans';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                color: #6B6B6C;
+                margin-bottom: 16px;
+            }
+
+            .hrdiv {
+                width: 86px;
+                height: 3px;
+                background-color: #FFCE50;
+                margin-bottom: 34px;
+            }
+
+            .icons {
+                display: flex;
+                gap: 0 20px;
+                align-items: center;
+            }
+        }
+    }
+
+    .h2 {
+        font-family: 'Exo 2';
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        margin-left: 100px;
+        margin-top: 130px;
+        margin-bottom: 14px;
+    }
+
+    .table-div2 {
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        margin-bottom: 116px;
+
+        .heading-div {
+            width: 317px;
+            height: 34px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 49px;
+
+            .itemss {
+                margin-left: 36px;
+
+                .itemss__p {
+                    font-family: 'PT Sans';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+                    margin-bottom: 8px;
+                }
+
+                .itemss__link {
+                    font-family: 'Exo 2';
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .table2 {
+        background: #F9F9FB;
+        border-radius: 5px;
+        width: 794px;
+        height: 383px;
+        border-spacing: 63px;
+        margin-top: 65px;
+        margin-left: 100px;
+
+        .tr2 {
+            .th2 {
+                width: 443px;
+                font-family: 'Exo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 125%;
+                color: #363738;
+                border-bottom: 1px solid #e1e2e4;
+            }
+
+            .td2 {
+                font-family: 'PT Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 125%;
+                color: #6B6B6C;
+                border-bottom: 1px solid #e1e2e4;
+            }
+        }
+    }
+
+    .video-item {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        margin-left: 100px;
+    }
+
+    .video-text {
+        font-family: 'PT Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+        width: 848px;
+        margin-left: 100px;
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+}
